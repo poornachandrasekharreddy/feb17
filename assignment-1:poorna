@@ -1,0 +1,9 @@
+evenno=0
+oddno=0
+print('sum of even and odd numbers')
+for i in range(50):
+    if i%2==0:
+        evenno=evenno+i
+    else:oddno=oddno+i
+print(evenno,'sum of even numbers')
+print(oddno,'sum off odd numbers')
